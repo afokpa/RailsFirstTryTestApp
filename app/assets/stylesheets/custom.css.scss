@@ -5,7 +5,7 @@
 
 #logo {
   float: left;
-  font-size: 1.7em;
+  font-size: 2.0em;
   color: teal;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -18,8 +18,14 @@
 }
 
 #first_link {
-  color: #3788AF;
+  color: wheat;
   // font-size: 15px;
+}
+
+.articles-item {
+  margin-top: 8pt;
+  margin-right: 20pt;
+  font-size: 1.2em;
 }
 
 #new_article_link {
@@ -106,19 +112,45 @@
 }
 
 #the_link {
-  color: #3788AF;
+  color: wheat;
+  margin-top: 10pt;
+  font-size: 1.2em;
+  // margin-right: 12pt;
 }
 
 #navbarDropdown {
-  color: #3788AF;
+  color: wheat;
+  margin-top: -3pt;
+  font-size: 1.2em;
 }
 
-#not_disabled {
-  color: #3788AF;
+.not-disabled {
+  list-style: none;
+  font-size: 1.0em;
+}
+
+.not-disabled a {
+  color: wheat;
+  font-size: 1.2em;
+}
+
+.dropdown_new {
+  list-style: none;
+  margin-top: 3pt;
+  margin-left: 10pt;
 }
 
 .pagecenter {
   float: right;
 }
 
+.articles {
+  list-style: none;
+  color: wheat;
+}
+
+#logout_link
+{
+  margin-right: 15pt;
+}
 

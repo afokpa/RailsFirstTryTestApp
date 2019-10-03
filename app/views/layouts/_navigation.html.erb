@@ -36,7 +36,7 @@
       </form>
       <li class="nav-item dropdown dropdown_new">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Your Profile
+          Your Profile <%= "Admin" if current_user.admin?%>
         </a>
         
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
